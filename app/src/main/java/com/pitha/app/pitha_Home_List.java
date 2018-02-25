@@ -29,10 +29,10 @@ public class pitha_Home_List extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                String pitha_names = listView.getItemAtPosition(i).toString();
-                Intent intent = new Intent(getApplicationContext(),pitha_order.class);
-                intent.putExtra("pitha_name", pitha_names);
-                startActivity(intent);
+//                String pitha_names = listView.getItemAtPosition(i).toString();
+//                Intent intent = new Intent(getApplicationContext(),pitha_order.class);
+//                intent.putExtra("pitha_name", pitha_names);
+//                startActivity(intent);
             }
         });
 
